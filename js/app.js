@@ -3,6 +3,7 @@ var sec = 0;
 var miliSec = 0;
 var timer;
 
+// main function for the Stop-Watch
 function callTimer() {
     miliSec++;
     if (miliSec < 100) {
